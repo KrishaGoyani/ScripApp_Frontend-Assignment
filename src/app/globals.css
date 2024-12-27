@@ -635,9 +635,9 @@ body {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1366px;
-  padding-left: 0.1 rem;
-  padding-right: 0.1rem;
+  max-width: 1140px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 @media (min-width: 768px) {
