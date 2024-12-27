@@ -3,7 +3,6 @@ import Discover from "@/components/Discover";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 import type { ProductData } from "@/components/ProductGrid";
-import MaxWidthWrapper from "@/components/MaxwidthWrapper";
 
 export default async function Home() {
   async function fetchProductData(): Promise<ProductData[]> {

@@ -4,7 +4,7 @@ import Sidebar from "./Sidebar";
 import ProductGrid, { type ProductData } from "./ProductGrid";
 import { useState } from "react";
 import { Check, ChevronDown, ChevronLeft, ChevronRight } from "lucide-react";
-import MaxWidthWrapper from "./MaxwidthWrapper";
+import MaxwidthWrapper from "./MaxwidthWrapper";
 
 const options = [
   "RECOMMENDED",
@@ -66,7 +66,7 @@ const Hero = ({ productData }: { productData: ProductData[] }) => {
   ];
 
   return (
-    <MaxWidthWrapper>
+    <MaxwidthWrapper>
       <div className="info">
         <div className="info-1">
           <p style={{ fontWeight: "bold", fontSize: "18px" }}>3425 items</p>
@@ -128,7 +128,7 @@ const Hero = ({ productData }: { productData: ProductData[] }) => {
           />
         </div>
       </div>
-    </MaxWidthWrapper>
+    </MaxwidthWrapper>
   );
 };
 

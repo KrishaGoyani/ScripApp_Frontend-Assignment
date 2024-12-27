@@ -1,20 +1,16 @@
 import { ChevronDown } from "lucide-react";
-import MaxWidthWrapper from "./MaxwidthWrapper";
+import MaxwidthWrapper from "./MaxwidthWrapper";
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <MaxWidthWrapper>
+      <MaxwidthWrapper>
         <div className="footer1">
           <div className="footer-section subscribe">
             <h4 style={{ marginBottom: "2rem" }}>BE THE FIRST TO KNOW</h4>
             <p style={{ marginBottom: "3rem" }}>
               Sign up for updates from mettä muse.
             </p>
-            {/* <div className="subscribe-form">
-            <input style={{width:120}} type="email" placeholder="Enter your e-mail..." />
-            <button>SUBSCRIBE</button>
-            </div> */}
             <div className="subscribe-section">
               <input
                 type="email"
@@ -202,7 +198,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </MaxWidthWrapper>
+      </MaxwidthWrapper>
     </footer>
   );
 };
